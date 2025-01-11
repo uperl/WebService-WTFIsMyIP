@@ -31,7 +31,8 @@ jobs:
           - "5.20"
 
     env:
-      CIP_TAG: ${{ matrix.cip_tag }} WEBSERVICE_WTFISMYIP_LIVE_TESTS=1
+      CIP_TAG: ${{ matrix.cip_tag }}
+      CIP_ENV: WEBSERVICE_WTFISMYIP_LIVE_TESTS=1
 
     steps:
       - uses: actions/checkout@v2
