@@ -13,7 +13,7 @@ say "your IP is", $wtfismyip->json->{IPAddress};
 
 # DESCRIPTION
 
-This class provides an interface to the WTF
+This class provides an interface to the [wtfismyip](https://wtfismyip.com) service.
 
 # CONSTRUCTOR
 

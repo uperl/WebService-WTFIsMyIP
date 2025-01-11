@@ -16,7 +16,7 @@ package WebService::WTFIsMyIP {
 
 =head1 DESCRIPTION
 
-This class provides an interface to the WTF
+This class provides an interface to the L<wtfismyip|https://wtfismyip.com> service.
 
 =head1 CONSTRUCTOR
 
