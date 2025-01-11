@@ -1,6 +1,7 @@
 use Test2::V0 -no_srand => 1;
 use WebService::WTFIsMyIP;
 use Test2::Require::EnvVar 'WEBSERVICE_WTFISMYIP_LIVE_TESTS';
+use stable qw( postderef );
 
 is(
     WebService::WTFIsMyIP->new,
